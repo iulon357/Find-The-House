@@ -1,0 +1,14 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(/img/Rectangle\ 400.png);
+    width: 335px;
+    height: 435px;
+    padding: 32px 47px;
+}
