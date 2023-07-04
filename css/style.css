@@ -79,6 +79,7 @@ h2 {
   width: 335px;
   height: 424px;
   padding: 16px;
+  margin-top: 20px;
 }
 
 .img-container {
@@ -129,6 +130,7 @@ hr {
   width: 335px;
   background-color: #CFEAD6;
   margin-top: 16px;
+  margin-left: -16px;
 }
 
 .house-card-bottom-1 {
@@ -137,4 +139,21 @@ hr {
   margin-top: 24px;
   font-size: 12px;
   font-family: poppins400;
+}
+
+.contact {
+  background-color: #29B24E;
+  width: 375px;
+  height: 326px;
+  border-radius: 24px;
+  color: #FFFFFF;
+  padding: 40px 20px;
+  margin-top: 50px;
+  margin-left: -20px;
+  }
+
+.first, .second, .third, .fourth {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
 }
