@@ -81,18 +81,43 @@ h2 {
   padding: 16px;
 }
 
+.img-container {
+  position: relative;
+}
+
+.vip {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 76px;
+  height: 30px;
+  background-color: #29B24E;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: poppins500;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .acres {
   margin-top: 28px;
+  font-size: 14px;
+  font-family: poppins500;
 }
 
 .place {
   margin-top: 10px;
+  font-size: 12px;
+  font-family: poppins400;
+  opacity: 50%;
 }
 
 .price-month {
-  margin: 7px 20px 0px 175px;
+  margin: 7px 4px 0px 175px;
   font-size: 12px;
-
+  font-family: poppins400;
 }
 
 .price {
@@ -101,6 +126,7 @@ h2 {
 }
 
 hr {
+  width: 335px;
   background-color: #CFEAD6;
   margin-top: 16px;
 }
@@ -109,4 +135,6 @@ hr {
   display: flex;
   justify-content: space-around;
   margin-top: 24px;
+  font-size: 12px;
+  font-family: poppins400;
 }
