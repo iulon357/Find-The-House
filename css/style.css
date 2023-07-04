@@ -52,25 +52,28 @@ body {
 }
 
 .main-image {
-    width: 335px;
-    height: 435px;
-    margin-top: 28px;
-    background-image: url(/img/Rectangle\ 400.png);
-    padding: 32px 47px;
+  width: 335px;
+  height: 435px;
+  margin-top: 28px;
+  background-image: url(/img/Rectangle\ 400.png);
+  padding: 32px 47px;
 }
 
 h1 {
-    font-size: 24px;
-text-align: center;
+  font-size: 24px;
+  font-family: poppins600;
+  text-align: center;
 }
 
 h2 {
-    font-size: 14px;
+  font-size: 14px;
+  font-family: poppins400;
 }
 
 .check-box {
   background-color: aqua;
   border-radius: 24px;
+  margin-top: 20px;
 }
 
 .house-card-1 {
@@ -92,8 +95,8 @@ h2 {
   left: 12px;
   width: 76px;
   height: 30px;
-  background-color: #29B24E;
-  color: #FFFFFF;
+  background-color: #29b24e;
+  color: #ffffff;
   font-size: 12px;
   font-family: poppins500;
   border-radius: 14px;
@@ -123,12 +126,12 @@ h2 {
 
 .price {
   font-size: 24px;
-  color: #29B24E;
+  color: #29b24e;
 }
 
 hr {
   width: 335px;
-  background-color: #CFEAD6;
+  background-color: #cfead6;
   margin-top: 16px;
   margin-left: -16px;
 }
@@ -142,18 +145,68 @@ hr {
 }
 
 .contact {
-  background-color: #29B24E;
+  background-color: #29b24e;
   width: 375px;
   height: 326px;
   border-radius: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 40px 20px;
   margin-top: 50px;
   margin-left: -20px;
-  }
+}
 
-.first, .second, .third, .fourth {
+.first,
+.second,
+.third,
+.fourth {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
+}
+
+.left-side {
+  font-size: 16px;
+  font-family: poppins500;
+}
+
+.right-side {
+  font-size: 16px;
+  font-family: poppins400;
+}
+
+.contact-hr {
+  margin-top: 40px;
+  background-color: #d0d0d0;
+  margin-left: 0px;
+}
+
+.copyright {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-family: poppins400;
+}
+
+footer {
+  background-color: aqua;
+  margin-top: 84px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-around;
+  width: 375px;
+  height: 72px;
+  font-size: 11px;
+  font-family: poppins500;
+  opacity: 90%;
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
