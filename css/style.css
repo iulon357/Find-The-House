@@ -103,11 +103,12 @@ label {
   
 }
 
-.amount {
+.amount, .ads {
   font-size: 14px;
   font-family: poppins400;
   opacity: 50%;
 }
+
 
 h3 {
   font-size: 18px;
@@ -131,7 +132,7 @@ h3 {
 }
 
 .house-card-1 {
-  background-color: aqua;
+  background-color: #F8F8F8;
   border-radius: 24px;
   width: 335px;
   height: 424px;
@@ -185,9 +186,11 @@ h3 {
 
 hr {
   width: 335px;
-  background-color: #cfead6;
+  border: 0;
+  background-color: #CFEAD6;
   margin-top: 16px;
   margin-left: -16px;
+  height: 1px;
 }
 
 .house-card-bottom-1 {
