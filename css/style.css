@@ -76,19 +76,37 @@ h2 {
 }
 
 #location {
-  width: 295px;
+  width: 290px;
   height: 48px;
   border-radius: 10px;
   font-size: 14px;
   font-family: poppins400;
   margin-top: 16px;
+  border-color: #0D9CA436;
 }
 
 .check-box {
-  background-color: aqua;
+  background-color: #F8F8F8;
   border-radius: 24px;
   margin-top: 20px;
   padding: 24px 20px;
+}
+
+label {
+  font-size: 14px;
+  font-family: poppins400;
+}
+
+#property {
+  accent-color: green;
+  background-color: #ffffff;
+  
+}
+
+.amount {
+  font-size: 14px;
+  font-family: poppins400;
+  opacity: 50%;
 }
 
 h3 {
