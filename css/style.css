@@ -82,11 +82,11 @@ h2 {
   font-size: 14px;
   font-family: poppins400;
   margin-top: 16px;
-  border-color: #0D9CA436;
+  border-color: #0d9ca436;
 }
 
 .check-box {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 24px;
   margin-top: 20px;
   padding: 24px 20px;
@@ -97,18 +97,31 @@ label {
   font-family: poppins400;
 }
 
-#property {
+#property1,
+#property2,
+#property3,
+#property4,
+#property5,
+#property6,
+#property7,
+#property8,
+#property9,
+#property10,
+#price-range1,
+#price-range2,
+#price-range3,
+#price-range4,
+#price-range5 {
   accent-color: green;
   background-color: #ffffff;
-  
 }
 
-.amount, .ads {
+.amount,
+.ads {
   font-size: 14px;
   font-family: poppins400;
   opacity: 50%;
 }
-
 
 h3 {
   font-size: 18px;
@@ -116,7 +129,9 @@ h3 {
   margin-top: 32px;
 }
 
-.location, .property, .price-range {
+.location,
+.property,
+.price-range {
   font-size: 16px;
   font-family: poppins500;
 }
@@ -132,7 +147,7 @@ h3 {
 }
 
 .house-card-1 {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 24px;
   width: 335px;
   height: 424px;
@@ -158,6 +173,21 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mark {
+  position: absolute;
+  bottom: -15px;
+  right: 4px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  box-shadow: -2px 4px 20px #6D6D6D40;
 }
 
 .acres {
@@ -187,7 +217,7 @@ h3 {
 hr {
   width: 335px;
   border: 0;
-  background-color: #CFEAD6;
+  background-color: #cfead6;
   margin-top: 16px;
   margin-left: -16px;
   height: 1px;
@@ -270,7 +300,7 @@ footer {
 }
 
 .plus-frame {
-  background-color: #29B24E;
+  background-color: #29b24e;
   width: 56px;
   height: 56px;
   border-radius: 12px;
