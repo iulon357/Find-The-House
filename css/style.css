@@ -34,8 +34,8 @@ body {
 
 .container {
   width: 375px;
-  padding: 20px;
-  border: 1px solid red;
+  padding: 20px 20px 0px 20px;
+  /* border: 1px solid red; */
 }
 
 .top {
@@ -275,7 +275,8 @@ hr {
 }
 
 footer {
-  background-color: aqua;
+  position: relative;
+  background-color: #ffffff;
   margin-top: 84px;
   margin-left: -20px;
   display: flex;
@@ -299,7 +300,14 @@ footer {
   align-items: center;
 }
 
+.button3 {
+  display: flex;
+  flex-direction: column;
+}
+
 .plus-frame {
+  position: absolute;
+  top: -10px;
   background-color: #29b24e;
   width: 56px;
   height: 56px;
