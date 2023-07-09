@@ -32,10 +32,9 @@ body {
   justify-content: center;
 }
 
-.container {
+.container1 {
   width: 375px;
   padding: 20px 20px 0px 20px;
-  border: 1px solid red;
 }
 
 .top {
@@ -324,13 +323,33 @@ footer {
 
 /* page2mob */
 
+.container2 {
+  width: 375px;
+  /* padding: 20px 20px 0px 20px; */
+  border: 1px solid red;
+}
+
 .info {
   margin-top: 42px;
   background-color: aqua;
+  border-radius: 24px;
 }
 
-.top {
+.top2 {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.view {
+  display: flex;
+  gap: 8px;
+}
+
+.posted {
+  font-size: 12px;
+  font-family: poppins400;
+  opacity: 60%;
 }
 
 .vip2 {
@@ -398,6 +417,7 @@ footer {
   font-size: 14px;
   font-family: poppins400;
   border-radius: 10px;
+  border-color: #ffffff;
 }
 
 .send-but {
@@ -408,4 +428,10 @@ footer {
   font-size: 14px;
   font-family: poppins400;
   border-radius: 10px;
+  border-color: #29B24E;
+}
+
+.similar-ads {
+  font-size: 22px;
+  font-family: poppins500;
 }
