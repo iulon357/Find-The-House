@@ -191,7 +191,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 11px;
-  box-shadow: -2px 4px 20px #6D6D6D40;
+  box-shadow: -2px 4px 20px #6d6d6d40;
 }
 
 .acres {
@@ -324,14 +324,30 @@ footer {
 /* page2mob */
 
 .container2 {
+  /* position: relative; */
   width: 375px;
   /* padding: 20px 20px 0px 20px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
+
+/* .go-back {
+  position: absolute;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #29b24e;
+  border-radius: 50%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-family: poppins600;
+} */
 
 .info {
   margin-top: 42px;
-  background-color: aqua;
+  background-color: #ffffff;
   border-radius: 24px;
 }
 
@@ -370,6 +386,7 @@ footer {
   color: #000000;
   font-family: poppins600;
   margin-top: 26px;
+  margin-left: 20px;
 }
 
 .text-middle {
@@ -377,28 +394,58 @@ footer {
   font-family: poppins400;
   opacity: 60%;
   margin-top: 8px;
+  margin-left: 20px;
 }
 
 .text-bottom {
   font-size: 12px;
   font-family: poppins400;
   margin-top: 24px;
+  margin-left: 20px;
 }
 
 .list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 14px;
   font-family: poppins500;
+  /* border: 1px solid red; */
+  margin-top: 24px;
+  padding: 16px 0px 16px 0px;
 }
 
-.new-line {
-  background-color: #f60b0b;
-}
 
-.line1, .line2, .line3, .line4, .line5, .line6, .line7 {
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6,
+.line7 {
   display: flex;
   justify-content: space-between;
+  padding: 12px 20px 0px 20px;
+}
+
+.one {
+  font-size: 12px;
+  font-family: poppins400;
+  opacity: 60%;
+}
+
+.two {
+  font-size: 14px;
+  font-family: poppins500;
+  opacity: 80%;
+}
+
+.two1 {
+  font-size: 14px;
+  font-family: poppins500;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .buttons {
@@ -412,26 +459,65 @@ footer {
 .call-but {
   width: 334px;
   height: 47px;
-  background-color: #29B24E;
+  background-color: #29b24e;
   color: #ffffff;
   font-size: 14px;
   font-family: poppins400;
   border-radius: 10px;
   border-color: #ffffff;
+  margin-top: 40px;
 }
 
 .send-but {
   width: 334px;
   height: 47px;
   background-color: #ffffff;
-  color: #29B24E;
+  color: #29b24e;
   font-size: 14px;
   font-family: poppins400;
   border-radius: 10px;
-  border-color: #29B24E;
+  border-color: #29b24e;
+  margin-bottom: 45px;
 }
 
 .similar-ads {
   font-size: 22px;
   font-family: poppins500;
+  margin-top: 40px;
+}
+
+.house-card-1b {
+  background-color: #f8f8f8;
+  border-radius: 24px;
+  width: 335px;
+  height: 424px;
+  padding: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.contact2 {
+  background-color: #29b24e;
+  width: 375px;
+  height: 326px;
+  border-radius: 24px;
+  color: #ffffff;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer2 {
+  position: relative;
+  background-color: #ffffff;
+  margin-top: 84px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  width: 375px;
+  height: 72px;
+  font-size: 11px;
+  font-family: poppins500;
+  opacity: 90%;
+  border-radius: 24px 24px 0 0;
 }
